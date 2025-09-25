@@ -13,7 +13,10 @@ public class MainApp {
         int secondNumber = scan.nextInt();
 
         Calculator calc = new Calculator();
-        int result = calc.add(firstNumber, secondNumber);
-        System.out.println("The Result Is: " + result);
+        int addResult = calc.add(firstNumber, secondNumber);
+        int subResult = calc.sub(firstNumber, secondNumber);
+
+        System.out.println("The Addition Result Is: " + addResult);
+        System.out.println("The Subtraction Result Is: " + subResult);
     }
 }
