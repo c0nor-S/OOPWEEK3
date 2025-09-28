@@ -16,6 +16,8 @@ public class MainApp {
         int addResult = calc.add(firstNumber, secondNumber);
         int subResult = calc.sub(firstNumber, secondNumber);
         int mulResult = calc.mul(firstNumber, secondNumber);
+        int powResult = calc.pow(firstNumber, secondNumber);
+        int modResult = calc.mod(firstNumber, secondNumber);
 
         System.out.println("The Addition Result Is: " + addResult);
         System.out.println("The Subtraction Result Is: " + subResult);
@@ -29,5 +31,8 @@ public class MainApp {
             int divResult = calc.div(firstNumber, secondNumber);
             System.out.println("The Division Result Is: " + divResult);
         }
+
+        System.out.println("The Exponential Result Is: " + powResult);
+        System.out.println("The Modulus Result Is: " + modResult);
     }
 }
