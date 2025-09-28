@@ -5,9 +5,15 @@ public class Calculator {
     {
         return firstNum + secondNum;
     }
+
     public int sub(int firstNum, int secondNum)
     {
        return firstNum - secondNum;
+    }
+
+    public int mul(int firstNum, int secondNum)
+    {
+        return firstNum * secondNum;
     }
     // You Will Add/Subtract/Multiply/Divide Later
 }
