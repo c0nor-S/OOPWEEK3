@@ -16,9 +16,11 @@ public class MainApp {
         int addResult = calc.add(firstNumber, secondNumber);
         int subResult = calc.sub(firstNumber, secondNumber);
         int mulResult = calc.mul(firstNumber, secondNumber);
+        int divResult = calc.div(firstNumber, secondNumber);
 
         System.out.println("The Addition Result Is: " + addResult);
         System.out.println("The Subtraction Result Is: " + subResult);
         System.out.println("The Multiplication Result Is: " + mulResult);
+        System.out.println("The Division Result Is: " + divResult);
     }
 }
