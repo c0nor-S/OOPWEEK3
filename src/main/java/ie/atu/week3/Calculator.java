@@ -14,7 +14,15 @@ public class Calculator {
     }
 
     public int div(int firstNum, int secondNum) {
-            return firstNum / secondNum;
+        return firstNum / secondNum;
         }
+
+    public int pow(int firstNum, int secondNum) {
+        return (int) Math.pow(firstNum, secondNum);
+    }
+
+    public int mod(int firstNum, int secondNum) {
+        return firstNum % secondNum;
+    }
         // You Will Add/Subtract/Multiply/Divide Later
 }
