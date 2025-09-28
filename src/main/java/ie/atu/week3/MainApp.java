@@ -16,11 +16,18 @@ public class MainApp {
         int addResult = calc.add(firstNumber, secondNumber);
         int subResult = calc.sub(firstNumber, secondNumber);
         int mulResult = calc.mul(firstNumber, secondNumber);
-        int divResult = calc.div(firstNumber, secondNumber);
 
         System.out.println("The Addition Result Is: " + addResult);
         System.out.println("The Subtraction Result Is: " + subResult);
         System.out.println("The Multiplication Result Is: " + mulResult);
-        System.out.println("The Division Result Is: " + divResult);
+
+        if(secondNumber == 0){
+            System.out.println("Error: Divide By Zero Error!");
+        }
+        else
+        {
+            int divResult = calc.div(firstNumber, secondNumber);
+            System.out.println("The Division Result Is: " + divResult);
+        }
     }
 }
