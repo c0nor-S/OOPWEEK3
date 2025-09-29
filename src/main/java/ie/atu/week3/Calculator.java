@@ -24,5 +24,7 @@ public class Calculator {
     public int mod(int firstNum, int secondNum) {
         return firstNum % secondNum;
     }
+
+    public String operation;
         // You Will Add/Subtract/Multiply/Divide Later
 }
