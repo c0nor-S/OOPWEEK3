@@ -13,8 +13,8 @@ public class Calculator {
         return firstNum * secondNum;
     }
 
-    public int div(int firstNum, int secondNum) {
-        return firstNum / secondNum;
+    public double div(int firstNum, int secondNum) {
+        return (double) firstNum / secondNum;
         }
 
     public int pow(int firstNum, int secondNum) {
